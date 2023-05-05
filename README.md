@@ -4,7 +4,8 @@
 
 #### TODO NEXT
 
-- start projects section
+- play with projects intro text style
+- get better picture for cv-builder
 
 #### TODO LATER
 
@@ -15,9 +16,16 @@
 ##### Style
 
 - work on contact section
-- change underline distance for links
+- check responsiveness
 
 #### DONE
+
+_1.0.3_
+
+- create projects section
+- add grid of project cards
+- populate cards with project info
+- make grid responsive
 
 _1.0.2_
 
