@@ -3,8 +3,10 @@
   --clr-2: rgb(235, 235, 235);
   /* --clr-2: white; */
   --clr-3: rgb(172, 172, 172);
-  --font-1: sans-serif;
+  --font-1: 'Josefin Sans', sans-serif;
+  --font-2: 'Fira Sans Condensed', sans-serif;
   font-size: 62.5%;
+  background: var(--clr-1);
 }
 *,
 *::before,
@@ -19,7 +21,9 @@ body {
   height: 100%;
   width: 100%;
   font-size: 2rem;
-  font-family: var(--font-1);
+  font-family: var(--font-2);
+  font-weight: 400;
+  letter-spacing: 0.1rem;
   color: var(--clr-2);
 }
 
@@ -35,7 +39,22 @@ body {
 nav {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 5rem;
+}
+.link-button {
+  padding: 0.5rem 0.7rem;
+  border: 2px solid var(--clr-2);
+  background: var(--clr-1);
+  color: var(--clr-2);
+  text-decoration: none;
+  transition: all 0.1s;
+}
+@media (hover: hover) {
+  .link-button:hover {
+    background: var(--clr-2);
+    color: var(--clr-1);
+  }
 }
 
 section {
@@ -65,16 +84,20 @@ h2 {
 }
 p {
   margin: auto;
-  max-width: 75ch;
+  max-width: 65ch;
+  line-height: 2.8rem;
 }
-a {
+p:not(p:first-of-type) {
+  margin-top: 2rem;
+}
+a:not(.link-button) {
   color: inherit;
 }
-a:active {
+a:not(.link-button):active {
   color: var(--clr-3);
 }
 @media (hover: hover) {
-  a:hover {
+  a:not(.link-button):hover {
     color: var(--clr-3);
   }
 }
@@ -85,16 +108,29 @@ a:active {
   background: var(--clr-1);
 }
 h1 {
+  padding: 4rem 4rem 0;
+  font-family: var(--font-1);
   font-size: 16rem;
+  background: var(--clr-2);
+  color: var(--clr-1);
 }
-h1 + h2 {
-  margin-top: -2rem;
-  margin-bottom: 5.5rem;
+h2 {
+  padding: 2rem 2rem 0.5rem;
+  font-family: var(--font-1);
   font-size: 6rem;
 }
-p:last-of-type:not(p:first-of-type) {
-  margin-top: 2rem;
+h1 + h2 {
+  margin-top: 1rem;
+  margin-bottom: 3.5rem;
+  width: max-content;
+  background: var(--clr-2);
+  color: var(--clr-1);
 }
+#welcome-section > div > p {
+  margin-left: 0;
+  text-align: left;
+}
+
 /* WELCOME SECTION END */
 
 /* PROJECTS SECTION START */
@@ -104,14 +140,23 @@ p:last-of-type:not(p:first-of-type) {
 #contact-section {
   text-align: left;
 }
-.contact-link {
+.contact-linkWrapper {
   margin: auto;
-  margin-top: 1rem;
+  margin-top: 3rem;
   width: 80%;
-  display: block;
 }
-.contact-link:first-of-type {
-  margin-top: 2.5rem;
+.contact-linkWrapper:first-of-type {
+  margin-top: 3rem;
+}
+.contact-link.link-button {
+  background: var(--clr-2);
+  color: var(--clr-1);
+}
+@media (hover: hover) {
+  .contact-link.link-button:hover {
+    background: var(--clr-1);
+    color: var(--clr-2);
+  }
 }
 .contact-link > span {
   margin-right: 1rem;

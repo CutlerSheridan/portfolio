@@ -2,28 +2,32 @@
 
 ## Learn a little about me. See my projects.
 
-This is extremely incomplete. I'm just toying around with it at the moment.
-
 #### TODO NEXT
+
+- start projects section
 
 #### TODO LATER
 
 ##### Features
 
-- start projects section
-- add more text to contact section
-- decide on new copy for second paragraph of intro
-
 ##### Behavior
 
 ##### Style
 
+- work on contact section
 - change underline distance for links
-- try making navbar links into buttons
-- change link hover style so it looks better
-- choose fonts
 
 #### DONE
+
+_1.0.2_
+
+- add github link to contact section
+- make navbar and contact links look like buttons
+- give navbar and contact links opposite fills
+- add white highlight behind splash text
+- pick primary font
+- pick secondary font
+- delete second paragraph from intro
 
 _1.0.1_
 _Branch: version-2_
