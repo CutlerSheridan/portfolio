@@ -16,8 +16,9 @@
 
 #### DONE
 
-_Branch: Main_
 _2.0.0_
+_Branch: Main_
+_1.1.1_
 
 - adjust navbar gaps on mobile
 - left-align everything in welcome section for larger devices
