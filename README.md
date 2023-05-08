@@ -4,8 +4,7 @@
 
 #### TODO NEXT
 
-- play with projects intro text style
-- get better picture for cv-builder
+- make site responsive
 
 #### TODO LATER
 
@@ -16,9 +15,15 @@
 ##### Style
 
 - work on contact section
-- check responsiveness
 
 #### DONE
+
+_1.0.4_
+
+- adjust project card font sizes
+- adjust projects section link styling
+- fix github icon positioning in project cards
+- get better picture for cv-builder
 
 _1.0.3_
 
