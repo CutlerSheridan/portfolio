@@ -58,8 +58,11 @@ nav {
   }
 }
 
+main {
+  --content-margin: 2rem;
+}
 section {
-  padding: 10rem;
+  padding: 10rem 0;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -76,20 +79,89 @@ section:nth-child(even) {
   color: var(--clr-1);
 }
 .section-innerContainer {
+  margin: 0 var(--content-margin);
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
+h1 {
+  padding: 2.5rem 1rem 0;
+  font-family: var(--font-1);
+  font-size: 8rem;
+  background: var(--clr-2);
+  color: var(--clr-1);
+}
 h2 {
-  font-size: 6rem;
+  padding: 1.2rem 2rem 0.5rem;
+  width: min(100%, max-content);
+  font-family: var(--font-1);
+  font-size: 2.6rem;
 }
 p {
   margin: auto;
   max-width: 65ch;
-  line-height: 2.8rem;
+  font-size: 1.6rem;
+  line-height: 2rem;
 }
 p:not(p:first-of-type) {
   margin-top: 2rem;
+}
+@media (min-width: 500px) {
+  h2 {
+    padding-top: 1.5rem;
+    font-size: 3rem;
+  }
+}
+@media (min-width: 600px) {
+  h2 {
+    padding-top: 1.5rem;
+    font-size: 3.4rem;
+  }
+  p {
+    font-size: 1.8rem;
+  }
+}
+@media (min-width: 750px) {
+  main {
+    --content-margin: 4rem;
+  }
+  h1 {
+    padding: 3rem 1rem 0;
+    font-size: 10rem;
+  }
+  h2 {
+    padding-top: 2rem;
+    font-size: 5rem;
+  }
+  p {
+    padding: 0;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+  }
+}
+@media (min-width: 925px) {
+  h1 {
+    padding: 4rem 4rem 0;
+    font-size: 12rem;
+  }
+}
+@media (min-width: 1208px) {
+  main {
+    --content-margin: 6rem;
+  }
+  h1 {
+    padding: 4rem 4rem 0;
+    font-size: 16rem;
+  }
+  h2 {
+    padding-top: 2.2rem;
+    font-size: 6rem;
+  }
+  p {
+    padding: 0;
+    font-size: 2rem;
+    line-height: 2.8rem;
+  }
 }
 a:not(.link-button) {
   padding: 0 0.3rem;
@@ -113,37 +185,37 @@ a:not(.link-button):active {
   height: calc(100vh);
   background: var(--clr-1);
 }
-h1 {
-  padding: 4rem 4rem 0;
-  font-family: var(--font-1);
-  font-size: 16rem;
-  background: var(--clr-2);
-  color: var(--clr-1);
-}
-h2 {
-  padding: 2rem 2rem 0.5rem;
-  font-family: var(--font-1);
-  font-size: 6rem;
-}
-h1 + h2 {
+.welcome-innerContainer > h2 {
   margin-top: 1rem;
   margin-bottom: 3.5rem;
-  width: max-content;
   background: var(--clr-2);
   color: var(--clr-1);
 }
 #welcome-section > div > p {
   margin-left: 0;
-  text-align: left;
+  text-align: center;
+}
+@media (max-width: 365px) {
+  .welcome-innerContainer > h2 {
+    font-size: 2.1rem;
+  }
+}
+@media (min-width: 450px) {
+  #welcome-section > div > p {
+    text-align: left;
+  }
 }
 /* WELCOME SECTION END */
 
 /* PROJECTS SECTION START */
 .projects-innerContainer {
-  width: min(100%, 80rem);
+  width: min(calc(100% - calc(var(--content-margin) * 2)), 80rem);
 }
 .projects-innerContainer > h2 {
-  padding: 0;
+  padding-top: 0;
+}
+.projects-innerContainer > p {
+  padding: 0 2rem;
 }
 .projects-grid {
   margin-top: 3rem;
@@ -195,12 +267,13 @@ a.projectCard-githubLink {
 a.projectCard-githubLink > span {
   padding-left: 0.1rem;
 }
-.projects-card p {
+.projectCard-p {
+  padding: 0;
   font-size: 1.3rem;
   line-height: normal;
   text-align: left;
 }
-p.projectCard-smallerFontParagraph {
+p.projectCard-p.projectCard-smallerFontParagraph {
   font-size: 1.1rem;
 }
 /* PROJECTS SECTION END */
@@ -211,11 +284,14 @@ p.projectCard-smallerFontParagraph {
 }
 .contact-linkWrapper {
   margin: auto;
-  margin-top: 3rem;
+  margin-top: 2rem;
   width: 80%;
 }
 .contact-linkWrapper:first-of-type {
-  margin-top: 3rem;
+  margin-top: 2rem;
+}
+.contact-linkWrapper > a {
+  font-size: 1.3rem;
 }
 .contact-link.link-button {
   background: var(--clr-2);
@@ -228,8 +304,29 @@ p.projectCard-smallerFontParagraph {
   }
 }
 .contact-link > span {
-  margin-right: 1rem;
+  margin-right: 0.4rem;
   width: 2.5rem;
   text-align: center;
+}
+@media (min-width: 600px) {
+  .contact-linkWrapper > a {
+    font-size: 1.6rem;
+  }
+}
+@media (min-width: 750px) {
+  .contact-linkWrapper {
+    margin-top: 3rem;
+  }
+  .contact-linkWrapper:first-of-type {
+    margin-top: 3rem;
+  }
+  .contact-linkWrapper > a {
+    font-size: 2rem;
+  }
+  .contact-link > span {
+    margin-right: 1rem;
+    width: 2.5rem;
+    text-align: center;
+  }
 }
 /* CONTACT SECTION END */

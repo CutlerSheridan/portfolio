@@ -4,7 +4,8 @@
 
 #### TODO NEXT
 
-- make site responsive
+- adjust navbar gaps on mobile
+- adjust grid max-width with breakpoints so two column width isn't so fucked up
 
 #### TODO LATER
 
@@ -14,9 +15,19 @@
 
 ##### Style
 
+- center navbar buttons; make same widths
 - work on contact section
 
 #### DONE
+
+_1.1.0_
+
+- restructure section padding so it doesn't fuck up on mobile
+- make h1's responsive
+- make h2's responsive
+- make p sizes and line heights responsive
+- make links responsive
+- use var(--content-margin) for .section-innerContainer margins that change with each breakpoint so grid can be correct width when calculating and subtracting section margins
 
 _1.0.5_
 
