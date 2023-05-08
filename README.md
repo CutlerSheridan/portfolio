@@ -4,9 +4,6 @@
 
 #### TODO NEXT
 
-- adjust navbar gaps on mobile
-- adjust grid max-width with breakpoints so two column width isn't so fucked up
-
 #### TODO LATER
 
 ##### Features
@@ -15,14 +12,24 @@
 
 ##### Style
 
-- center navbar buttons; make same widths
 - work on contact section
 
 #### DONE
 
+_Branch: Main_
+_2.0.0_
+
+- adjust navbar gaps on mobile
+- left-align everything in welcome section for larger devices
+- adjust h2 sizing now that its left margin is 0
+- adjust h2 padding so it better matches that of h1
+- adjust grid max-width with breakpoints so two column width isn't so fucked up
+- capitalize project names
+
 _1.1.0_
 
 - restructure section padding so it doesn't fuck up on mobile
+- center navbar buttons; make same widths
 - make h1's responsive
 - make h2's responsive
 - make p sizes and line heights responsive
