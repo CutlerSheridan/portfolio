@@ -142,6 +142,9 @@ h1 + h2 {
 .projects-innerContainer {
   width: min(100%, 80rem);
 }
+.projects-innerContainer > h2 {
+  padding: 0;
+}
 .projects-grid {
   margin-top: 3rem;
   width: 100%;
@@ -153,6 +156,12 @@ h1 + h2 {
 .projects-card {
   width: 24rem;
   box-shadow: 0.3rem 0.3rem 0.6rem 0.2rem var(--clr-3);
+  transition: all 0.15s;
+}
+@media (hover: hover) {
+  .projects-card:hover {
+    transform: scale(1.05);
+  }
 }
 .projectCard-image {
   width: 100%;

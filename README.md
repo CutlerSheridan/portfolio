@@ -18,6 +18,11 @@
 
 #### DONE
 
+_1.0.5_
+
+- adjust projects section positioning
+- add hover scaling effect to project cards
+
 _1.0.4_
 
 - adjust project card font sizes
