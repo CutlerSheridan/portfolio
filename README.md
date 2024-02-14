@@ -8,13 +8,29 @@
 
 ##### Features
 
+- ? add stackoverflow to contact list
+
 ##### Behavior
+
+- ? make googleable
 
 ##### Style
 
-- work on contact section
+- ? add technology tags to each project
+- play with font sizes
+- adjust projects section
+- check project section on mobile
 
 #### DONE
+
+_2.0.1_
+
+- add additional row of projects
+- add project for wedding site - client
+- add project for wedding site - admin
+- add project for I Spy
+- reorder contact links
+- adjust project descriptions
 
 _2.0.0_
 _Branch: Main_
