@@ -4,6 +4,8 @@
 
 #### TODO NEXT
 
+- add favicon
+
 #### TODO LATER
 
 ##### Features
@@ -22,6 +24,11 @@
 - check project section on mobile
 
 #### DONE
+
+_2.0.2_
+
+- add guest name suggestion to wedding site description so user can look someone up
+- make first card text smaller
 
 _2.0.1_
 
