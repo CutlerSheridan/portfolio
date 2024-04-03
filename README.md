@@ -25,6 +25,11 @@
 
 #### DONE
 
+_2.0.3_
+
+- removed résumé builder from projects
+- added HP web series site to projects
+
 _2.0.2_
 
 - add guest name suggestion to wedding site description so user can look someone up
