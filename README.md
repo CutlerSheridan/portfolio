@@ -18,12 +18,19 @@
 
 ##### Style
 
+- add favicon
 - ? add technology tags to each project
 - play with font sizes
 - adjust projects section
 - check project section on mobile
 
 #### DONE
+
+_2.0.4_
+
+- change "boyfriend" to "husband"
+- reword HP series description
+- move HP series higher up in project list
 
 _2.0.3_
 
