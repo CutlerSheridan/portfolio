@@ -23,6 +23,12 @@
 
 #### DONE
 
+_2.0.6_
+
+- add liquor brand site card
+- add lighthouse shop card
+- add résumé builder card
+
 _2.0.5_
 
 - adjust some project descriptions/titles
