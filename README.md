@@ -5,26 +5,28 @@
 #### TODO NEXT
 
 - add favicon
+- ? add lighthouse shop
 
 #### TODO LATER
 
 ##### Features
 
-- ? add stackoverflow to contact list
-
 ##### Behavior
 
-- ? make googleable
+- make googleable
 
 ##### Style
 
-- add favicon
 - ? add technology tags to each project
 - play with font sizes
 - adjust projects section
-- check project section on mobile
 
 #### DONE
+
+_2.0.5_
+
+- adjust some project descriptions/titles
+- add commented-out Lighthouse Shop project
 
 _2.0.4_
 
