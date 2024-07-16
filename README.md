@@ -4,8 +4,7 @@
 
 #### TODO NEXT
 
-- add favicon
-- ? add lighthouse shop
+- finesse favicon
 
 #### TODO LATER
 
@@ -22,6 +21,11 @@
 - adjust projects section
 
 #### DONE
+
+_2.0.7_
+
+- fill in liquor site card and reorder
+- add favicon
 
 _2.0.6_
 
