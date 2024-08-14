@@ -22,6 +22,13 @@
 
 #### DONE
 
+_2.0.8_
+
+- move liquor site to front
+- adjust liquor site description copy
+- replace liquor site image
+- add résumé link
+
 _2.0.7_
 
 - fill in liquor site card and reorder
