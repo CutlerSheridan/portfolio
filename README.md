@@ -22,6 +22,10 @@
 
 #### DONE
 
+_2.0.9_
+
+- fix résumé download link
+
 _2.0.8_
 
 - move liquor site to front
