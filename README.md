@@ -24,6 +24,10 @@
 
 #### DONE
 
+_2.0.11_
+
+- remove bottom row of projects
+
 _2.0.10_
 
 - replace résumé
