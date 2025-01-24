@@ -4,7 +4,7 @@
 
 #### TODO NEXT
 
-- finesse favicon
+- prevent section displacement at viewport width of 280
 
 #### TODO LATER
 
@@ -16,11 +16,21 @@
 
 ##### Style
 
+- reduce the media queries with some responsive font sizes
 - ? add technology tags to each project
 - play with font sizes
 - adjust projects section
+- finesse favicon
 
 #### DONE
+
+_2.0.10_
+
+- replace résumé
+- rephrase some of intro
+- make welcome section left-aligned even on the thinnest of screens
+- adjust "my résumé" link padding and border-width on smaller screens
+- add bouncing chevron to welcome section
 
 _2.0.9_
 
