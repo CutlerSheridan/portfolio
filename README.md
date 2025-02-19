@@ -24,6 +24,10 @@
 
 #### DONE
 
+_2.0.12_
+
+- update projects in grid
+
 _2.0.11_
 
 - remove bottom row of projects
