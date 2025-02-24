@@ -24,6 +24,10 @@
 
 #### DONE
 
+_2.0.13_
+
+- update résumé
+
 _2.0.12_
 
 - update projects in grid
